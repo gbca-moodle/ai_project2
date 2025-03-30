@@ -126,7 +126,6 @@ def scrap_message(message_id):
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    # api_key="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",
     api_key=st.secrets["OPENAI_API_KEY"],
 )
 
