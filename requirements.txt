@@ -2,4 +2,3 @@ openai
 streamlit
 bs4
 requests
-re
