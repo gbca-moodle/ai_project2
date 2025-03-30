@@ -143,7 +143,7 @@ if "displaymessages" not in st.session_state:
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-if prompt := st.chat_input("Which message? Enter the number after m="):
+if prompt := st.chat_input("Which message?"):
     st.session_state.messages = []
     st.session_state.displaymessages = []
 
